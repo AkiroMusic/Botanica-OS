@@ -1,0 +1,12 @@
+环节,延迟（ms）,说明
+音频 I/O 缓冲（输入+输出块）,8.0,128 样本 @16 kHz × 2
+Mel 前端 + VAE 编码器,11.5,4 层 CNN + 2 层 LSTM
+操作层（Graft/Hybridize/Cultivate）,5.5,含 Cultivate 的 GP 预测（截断后）
+VAE 解码器,9.0,3 层 MLP → DDSP 参数
+DDSP 合成器,7.5,64 谐波 + 噪声 + 时变滤波
+WebSocket 序列化与 UI 同步,5.5,JSON 负载，增量更新
+合计（实测）,47.0 ± 3.0,<100 ms，满足 DR5
+
+测量条件：16 kHz 采样率，128 样本块（8 ms/块），音频接口环回（loopback）方式，
+1,000 次测量取均值与标准差；平台 MacBook Pro M2（16 GB，macOS 14），仅 CPU 推理
+（PyTorch 2.1，线程数 4）。对应论文表4。

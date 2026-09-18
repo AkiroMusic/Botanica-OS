@@ -1,0 +1,17 @@
+比较/假设,指标,M（条件1 vs 条件2）,效应量,p（Holm）,95% CI,判定
+Graft vs Hybridize（SUS）,总体 SUS,78.3±5.5 vs 73.4±6.2,Cliff's δ=0.61,0.036,CI 部分重叠,显著
+Graft vs Hybridize,SUS 可学性子量表,75.5±5.9 vs 71.9±6.6,δ=0.48,0.048,—,显著（Graft 最高）
+Graft vs Cultivate（SUS）,总体 SUS,78.3 vs 75.6,δ=0.33,0.42；BF10=1.2（不构成证据）,差值 CI [−2.1, 8.9],不显著
+Cultivate vs Hybridize（SUS）,总体 SUS,75.6 vs 73.4,δ=0.30,0.30,差值 CI [−2.4, 6.8],不显著
+三范式总体差异,总体 SUS,78.3 / 75.6 / 73.4,—,Friedman χ²(2)=7.62 p=0.022（完整区组 N=11）,—,显著（总体）
+H1：Graft vs RAVE 基线（同一 N=6 子样本）,总体 SUS,Graft 78.2 vs RAVE 78.1（全样本 Graft 78.3）,dz=0.03,n.s.,—,未支持（差 0.1 < 10）
+H1 动机证据：Graft vs RAVE,示能性,5.4 vs 2.8（N=6）,δ=0.87,0.031（Wilcoxon，探索性）,—,支持
+H1 动机证据：Graft vs AudioLDM,示能性,5.4 vs 3.2（N=6）,δ=0.72,0.063（探索性）,—,方向性支持（未达显著）
+H2：能动性维度排序,能动性,Cultivate 5.9±0.6 最高；Graft 4.8±0.9；Hybridize 4.1±1.0 最低,Friedman χ²(2)=13.8 p=0.001,Cultivate vs 其余 p≤0.014,—,部分支持（最低为 Hybridize 而非 Graft）
+H2：可控性维度,可控性,Graft 5.5±0.8；Cultivate 4.0±1.1（次低）；Hybridize 3.7±1.2（最低）,δ=0.79 / 0.62 / 0.17,Friedman χ²(2)=11.6 p=0.003,—,—
+H3：4 周随访,判断标准改变,5/11 回复者报告,—,描述性，无检验,—,初步支持
+
+口径说明（对应论文表7）：描述统计取各条件全样本（Graft/Hybridize N=12、Cultivate N=11）；
+Friedman 基于三条件完整的 N=11 区组；Graft vs Hybridize 配对 N=12，涉及 Cultivate 的配对 N=11；
+基线比较为同一 N=6 子样本；BF10 为贝叶斯因子（JZS 先验 r=0.707）；
+全部配对比较均予报告（非择优），10,000 次 Bootstrap 95% CI。
