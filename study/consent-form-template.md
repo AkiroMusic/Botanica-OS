@@ -42,7 +42,7 @@
 
 ## 联系方式
 
-研究者：章乃驰（AkiroMusic）　akiromusic@qq.com
+研究者：AkiroMusic　akiromusic@qq.com
 
 被试签署：＿＿＿＿＿＿　　日期：＿＿＿＿＿＿
 研究者签署：＿＿＿＿＿＿　　日期：＿＿＿＿＿＿

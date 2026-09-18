@@ -1,20 +1,18 @@
 cff-version: 1.2.0
-message: "如引用本工作，请使用以下条目。DOI 与发表信息为占位，录用后更新。"
-title: "神经潜在空间的「有机化」操作：AI 辅助 Botanica/IDM 音色设计的交互范式与美学边界"
+message: "If you cite this work, please use the entry below. DOI and publication venue are placeholders until acceptance. / 如引用本工作请使用以下条目；DOI 与发表信息为占位，录用后更新。"
+title: "神经潜在空间的「有机化」操作：AI 辅助 Botanica/IDM 音色设计的交互范式与美学边界 (Organic Operations on Neural Latent Spaces: Interaction Paradigms and Aesthetic Boundaries of AI-Assisted Botanica/IDM Timbre Design)"
 authors:
-  - family-names: 章
-    given-names: 乃驰
-    alias: AkiroMusic
+  - alias: AkiroMusic
     email: akiromusic@qq.com
-    affiliation: "独立研究者（Independent Researcher）"
+    affiliation: "Independent Researcher / 独立研究者"
 year: 2026
 type: article
 keywords:
-  - 潜在空间
-  - 神经音频合成
+  - latent space
+  - neural audio synthesis
   - Botanica/IDM
-  - 交互范式
-  - 有机化操作
-  - 人机共创
+  - interaction paradigm
+  - organic operations
+  - human–AI co-creation
 license: GPL-3.0
 repository-code: "https://github.com/AkiroMusic/botanica-os"
