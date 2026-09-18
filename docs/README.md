@@ -6,6 +6,11 @@ This directory is the designated home for auxiliary and future materials beyond 
 paper's release commitments: scholarly annotations, extended derivations, reading notes,
 replication attempts, lecture/demo material, and community Q&A digests.
 
+| File | Content |
+|---|---|
+| [glossary.md](glossary.md) | Glossary of the paper's terms and concepts (English), 120 entries in 8 domains |
+| [glossary.zh.md](glossary.zh.md) | 术语与概念详解（中文版，与英文版条目一一对应） |
+
 - Create one subdirectory per topic: `docs/<topic>/` (e.g., `docs/gp-derivation/`).
 - Dated notes follow `YYYY-MM-DD_<topic>_<type>.md`.
 - English first; include a Chinese version in the same file or as a `*.zh.md` sibling.
@@ -16,6 +21,11 @@ replication attempts, lecture/demo material, and community Q&A digests.
 
 本目录用于放置论文发布承诺之外的辅助材料与后续新增内容：学术注解、推导扩展、
 读书笔记、复现尝试、讲解演示材料、社区问答整理等。
+
+| 文件 | 内容 |
+|---|---|
+| [glossary.md](glossary.md) | 论文术语与概念详解（英文版），8 个领域 120 个条目 |
+| [glossary.zh.md](glossary.zh.md) | 术语与概念详解（中文版，与英文版条目一一对应） |
 
 - 每个主题一个子目录：`docs/<主题>/`（如 `docs/gp-derivation/`）。
 - 带日期的笔记按 `YYYY-MM-DD_<主题>_<类型>.md` 命名。
