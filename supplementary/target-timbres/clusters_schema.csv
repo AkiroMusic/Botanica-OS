@@ -1,0 +1,2 @@
+cluster_id,grain_density_level,harmonic_stability_level,wetness_level,reference_audio,notes
+T1,low|mid|high,stable|drifting|unstable,dry|mid|wet,,
