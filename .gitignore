@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+
+# 模型权重与音频（一律不入库）
+*.ckpt
+*.pth
+*.onnx
+*.wav
+*.aif*
+*.flac
+*.mp3
+
+# 本地实验产物
+runs/
+data/raw/
+data/private/

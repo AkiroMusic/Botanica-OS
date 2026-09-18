@@ -1,0 +1,11 @@
+# Botanica-OS 随机种子登记表
+# 论文附录 B：所有随机种子集中于此，覆盖模型训练、UMAP 初始化、Bootstrap 重抽样
+# 与任务顺序随机化，确保结果可逐次复现。
+#
+# 注意：数值将在代码正式发布时逐项填入并锁定；当前为登记结构占位。
+# 每项填写后请勿更改——更改即构成对已发表结果的复现口径变更。
+
+model_training:        # 模型训练（含条件 VAE 分支联合训练）
+umap_init:             # UMAP 投影初始化（服务启动预计算）
+bootstrap_resampling:  # 表7 全部 10,000 次 Bootstrap 95% CI
+task_order_randomization:  # 用户研究拉丁方任务顺序分配
