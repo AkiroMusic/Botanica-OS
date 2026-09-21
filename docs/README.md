@@ -8,7 +8,7 @@ replication attempts, lecture/demo material, and community Q&A digests.
 
 | File | Content |
 |---|---|
-| [glossary.md](glossary.md) | Glossary of the paper's terms and concepts (English), 120 entries in 8 domains |
+| [glossary.md](glossary.md) | Glossary of the paper's terms and concepts (English), 121 entries in 8 domains |
 | [glossary.zh.md](glossary.zh.md) | 术语与概念详解（中文版，与英文版条目一一对应） |
 
 - Create one subdirectory per topic: `docs/<topic>/` (e.g., `docs/gp-derivation/`).
@@ -24,7 +24,7 @@ replication attempts, lecture/demo material, and community Q&A digests.
 
 | 文件 | 内容 |
 |---|---|
-| [glossary.md](glossary.md) | 论文术语与概念详解（英文版），8 个领域 120 个条目 |
+| [glossary.md](glossary.md) | 论文术语与概念详解（英文版），8 个领域 121 个条目 |
 | [glossary.zh.md](glossary.zh.md) | 术语与概念详解（中文版，与英文版条目一一对应） |
 
 - 每个主题一个子目录：`docs/<主题>/`（如 `docs/gp-derivation/`）。
