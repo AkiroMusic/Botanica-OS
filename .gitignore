@@ -20,3 +20,8 @@ node_modules/
 runs/
 data/raw/
 data/private/
+
+# 本地论文工作区（论文成品与源稿含作者真名，一律不入库、不推送）
+paper/
+source/
+WORKSPACE.md
