@@ -21,8 +21,7 @@ runs/
 data/raw/
 data/private/
 
-# 本地论文工作区（论文成品与源稿含作者真名，一律不入库、不推送）
-paper/
+# 本地工作区（源稿含作者真名，不入库；论文成品 paper/ 已获作者许可入库发布）
 source/
 WORKSPACE.md
 

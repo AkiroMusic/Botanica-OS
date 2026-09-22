@@ -15,6 +15,9 @@ into three botanically-metaphor paradigms, instantiates them in a prototype syst
 the differences between the three paradigms in a mixed-methods user study with N = 12
 Botanica/IDM producers and ML researchers.
 
+The **official version of the paper** (v6, Chinese and English, PDF + Word) ships in
+[`paper/`](paper/).
+
 ## The Three Organic Operations
 
 | Paradigm | Input | Time structure | Formula | Description |
@@ -45,6 +48,7 @@ four-week follow-up window.
 ## Repository Structure
 
 ```
+paper/          The paper itself — official version v6 (Botanica-OS_Paper_v6_Official_CN/EN, PDF + Word)
 analysis/       Quantitative re-analysis script (reanalysis.py) and data template (study_data_template.csv)
 reference/      Reference implementation of Eqs. (2)–(4) and Algorithm 1 (numpy only, unit-tested)
 results/        Result tables: latency breakdown (Table 4), summary of results (Table 7),
@@ -108,7 +112,8 @@ Full hyperparameters: `results/tableA1_hyperparameters.csv`.
 
 ## Citation
 
-To cite this work, use the accompanying paper (see [CITATION.cff](CITATION.cff)):
+To cite this work, use the accompanying paper (see [CITATION.cff](CITATION.cff));
+the paper files are in [`paper/`](paper/):
 
 > AkiroMusic. Organic Operations on Neural Latent Spaces: Interaction Paradigms and
 > Aesthetic Boundaries of AI-Assisted Botanica/IDM Timbre Design. 2026.
@@ -123,6 +128,8 @@ To cite this work, use the accompanying paper (see [CITATION.cff](CITATION.cff))
 将神经潜在空间交互重组为三种植物学隐喻范式，在统一的可微 DSP 实时管线上实现原型系统
 **Botanica-OS**，并通过 N=12 位 Botanica/IDM 制作人与 ML 研究者的混合方法用户研究
 量化三范式差异。
+
+论文**正式版（v6，中英双语，PDF + Word）**见 [`paper/`](paper/)。
 
 ### 三种有机化操作
 
@@ -149,6 +156,7 @@ Botanica/IDM 单一风格与 4 周随访窗口。
 ### 仓库结构
 
 ```
+paper/          论文正式版 v6（Botanica-OS_Paper_v6_Official_CN / _EN，PDF + Word）
 analysis/       定量再分析脚本 reanalysis.py 与数据模板 study_data_template.csv
 reference/      论文式(2)–(4)与算法1的参考实现（仅依赖 numpy，含单元测试）
 results/        结果汇总表：延迟分解（表4）、结果总表（表7）、基线公平性（表8）、超参数（表A1）
@@ -198,7 +206,7 @@ seeds.yaml      随机种子登记（模型训练 / UMAP / Bootstrap / 任务顺
 
 ### 引用
 
-如引用本工作，请使用论文（见 [CITATION.cff](CITATION.cff)）：
+如引用本工作，请使用论文（见 [CITATION.cff](CITATION.cff)）；论文文件在 [`paper/`](paper/)：
 
 > AkiroMusic. Organic Operations on Neural Latent Spaces: Interaction Paradigms and
 > Aesthetic Boundaries of AI-Assisted Botanica/IDM Timbre Design. 2026.
