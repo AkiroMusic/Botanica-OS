@@ -25,3 +25,6 @@ data/private/
 paper/
 source/
 WORKSPACE.md
+
+# AkiGraft 参赛插件项目（独立仓库，避免论文仓库误收）
+AkiGraft/
